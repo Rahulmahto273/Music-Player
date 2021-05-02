@@ -1,0 +1,84 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main_div{
+  height: 100vh;
+  width:100vw;
+  background-color: skyblue;
+  display: grid;
+  place-items:center;
+}
+.music_container{
+  height:550px;
+  width:350px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 16px 0  green;
+}
+.music_container #title{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: red;
+  word-spacing: 10px;
+  margin: 20px 0px 0.5px 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.music_container #artist{
+  text-transform: capitalize;
+  color: orange;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-weight: 300;
+
+}
+.image_container{
+  height: 250px;
+  width:250px;
+  margin: auto;
+}
+img{
+  height: 100%;
+  width:100%;
+  border-radius:50%;
+  object-fit: cover;
+}
+.music_controls{
+  display: flex;
+  margin: auto;
+  padding: 0 20px 0 20px;
+  width:250px;
+  justify-content: space-between;
+  margin-top: 60px;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 skyblue;
+}
+.music_controls .main{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.music_controls .main:hover{
+  background-color: white;
+  color: black;
+
+}
+.music_controls .prv:hover{
+  background-color: green;
+  color: grey;
+}
+.music_controls .nxt:hover{
+  background-color: green;
+  color: grey;
+}
